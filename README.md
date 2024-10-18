@@ -45,6 +45,8 @@ A cutting-edge network visualization project that transforms complex network top
         <strong>BSNL Model Dashboard</strong><br/>
         <img src="https://github.com/Yashaswinikpro/Networks_Project/blob/main/images/bsnl.png" alt="Mobile Screenshot" width="400"/>
       </td>
+      </tr>
+    <tr>
         <td align="center">
         <strong>Airtel Model Dashboard</strong><br/>
         <img src="https://github.com/Yashaswinikpro/Networks_Project/blob/main/images/airtil.png" alt="Mobile Screenshot" width="400"/>
@@ -53,8 +55,6 @@ A cutting-edge network visualization project that transforms complex network top
         <strong>Footer</strong><br/>
         <img src="https://github.com/Yashaswinikpro/Networks_Project/blob/main/images/footer.png" alt="Mobile Screenshot" width="400"/>
       </td>
-
-      
     </tr>
   </table>
 </div>
