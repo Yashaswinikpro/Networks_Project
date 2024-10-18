@@ -144,7 +144,7 @@ Contributions are welcome! Special thanks to our main contributor:
     <tr>
       <td align="center">
         <a href="https://github.com/Yashaswinikpro">
-          <img src="/api/placeholder/100/100" width="100px;" alt="Yashaswini K"/>
+          <img src="https://media.licdn.com/dms/image/v2/D5603AQGvAUTTbIlieA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726733684725?e=1734566400&v=beta&t=4gMPjLiYjhrPzTeHc9vIT7aDis9ahNr8R8RG7PY0zDw" width="100px;" alt="Yashaswini K"/>
           <br />
           <sub><b>Yashaswini K</b></sub>
         </a>
@@ -181,13 +181,13 @@ Contributions are welcome! Special thanks to our main contributor:
 Have questions or want to contribute? Contact the project maintainer:
 
 - 👨‍💻 **Yashaswini K**
-- 📧 Email: [your.email@example.com]
-- 🔗 LinkedIn: [Your LinkedIn Profile]
-- 🌐 Portfolio: [Your Portfolio]
+- 📧 Email: yashaswinik.pro@gmail.com
+- 🔗 LinkedIn: https://www.linkedin.com/in/yashaswini-k-695b8629b/
+- 🌐 Portfolio: 
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed is the Yashaswini K
 
 ---
 
