@@ -29,22 +29,32 @@ A cutting-edge network visualization project that transforms complex network top
     <tr>
       <td align="center">
         <strong>Dashboard View</strong><br/>
-        <img src="/api/placeholder/400/250" alt="Dashboard Screenshot" width="400"/>
+        <img src="https://github.com/Yashaswinikpro/Networks_Project/blob/main/images/pic1.png" alt="Dashboard Screenshot" width="400"/>
       </td>
       <td align="center">
-        <strong>Network Topology</strong><br/>
-        <img src="/api/placeholder/400/250" alt="Topology Screenshot" width="400"/>
+        <strong>Jio Model Dashboard</strong><br/>
+        <img src="https://github.com/Yashaswinikpro/Networks_Project/blob/main/images/jio.png" alt="Topology Screenshot" width="400"/>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <strong>Analytics Panel</strong><br/>
-        <img src="/api/placeholder/400/250" alt="Analytics Screenshot" width="400"/>
+        <strong>VI Model Dashboard</strong><br/>
+        <img src="https://github.com/Yashaswinikpro/Networks_Project/blob/main/images/vi.png" alt="Analytics Screenshot" width="400"/>
       </td>
       <td align="center">
-        <strong>Mobile View</strong><br/>
-        <img src="/api/placeholder/400/250" alt="Mobile Screenshot" width="400"/>
+        <strong>BSNL Model Dashboard</strong><br/>
+        <img src="https://github.com/Yashaswinikpro/Networks_Project/blob/main/images/bsnl.png" alt="Mobile Screenshot" width="400"/>
       </td>
+        <td align="center">
+        <strong>Airtel Model Dashboard</strong><br/>
+        <img src="https://github.com/Yashaswinikpro/Networks_Project/blob/main/images/airtil.png" alt="Mobile Screenshot" width="400"/>
+      </td>
+        <td align="center">
+        <strong>Footer</strong><br/>
+        <img src="https://github.com/Yashaswinikpro/Networks_Project/blob/main/images/footer.png" alt="Mobile Screenshot" width="400"/>
+      </td>
+
+      
     </tr>
   </table>
 </div>
