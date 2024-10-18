@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attractive Network Navbar Example</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar for Cell Tower Names -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Networks</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#bsnlModal">
+                            <img src="images/bsnl-logo-icon.svg" alt="BSNL Logo" class="nav-icon">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#airtelModal">
+                            <img src="images/airtel-logo-icon.svg" alt="Airtel Logo" class="nav-icon">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#jioModal">
+                            <img src="images/jio-logo-icon.svg" alt="Jio Logo" class="nav-icon">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#viModal">
+                            <img src="images/vi-mobile-icon.svg" alt="VI Logo" class="nav-icon">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#othersModal">
+                            <img src="images/more-options-icon.svg" alt="Others Logo" class="nav-icon">
+                        </a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Modals for each network -->
+    <div class="modal fade" id="bsnlModal" tabindex="-1" aria-labelledby="bsnlModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bsnlModalLabel">BSNL Network Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Network Coverage:</h6>
+                    <p>4G: Available in most urban and many rural areas<br>5G: Not yet available</p>
+                    <h6>User Count:</h6>
+                    <p>Approximately 110 million subscribers (as of 2023)</p>
+                    <h6>Popular Recharge Plans:</h6>
+                    <ul>
+                        <li>₹97: 2GB data, unlimited calls, 18 days validity</li>
+                        <li>₹247: 50GB data, unlimited calls, 30 days validity</li>
+                        <li>₹365: 2GB/day, unlimited calls, 60 days validity</li>
+                    </ul>
+                    <h6>Signal Strength:</h6>
+                    <p>Varies by location. Generally strong in rural areas, may be weaker in some urban centers compared to private operators.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="airtelModal" tabindex="-1" aria-labelledby="airtelModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="airtelModalLabel">Airtel Network Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Network Coverage:</h6>
+                    <p>4G: Extensive coverage across urban and rural areas<br>5G: Available in select cities, rapidly expanding</p>
+                    <h6>User Count:</h6>
+                    <p>Over 350 million subscribers (as of 2023)</p>
+                    <h6>Popular Recharge Plans:</h6>
+                    <ul>
+                        <li>₹199: 1GB/day, unlimited calls, 24 days validity</li>
+                        <li>₹399: 1.5GB/day, unlimited calls, 56 days validity</li>
+                        <li>₹698: 3GB/day, unlimited calls, 84 days validity</li>
+                    </ul>
+                    <h6>Signal Strength:</h6>
+                    <p>Generally strong in both urban and rural areas. Known for consistent performance.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="jioModal" tabindex="-1" aria-labelledby="jioModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="jioModalLabel">Jio Network Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Network Coverage:</h6>
+                    <p>4G: Nationwide coverage<br>5G: Available in major cities, fast expansion ongoing</p>
+                    <h6>User Count:</h6>
+                    <p>Over 400 million subscribers (as of 2023)</p>
+                    <h6>Popular Recharge Plans:</h6>
+                    <ul>
+                        <li>₹239: 1.5GB/day, unlimited calls, 28 days validity</li>
+                        <li>₹666: 1.5GB/day, unlimited calls, 84 days validity</li>
+                        <li>₹2999: 2.5GB/day, unlimited calls, 365 days validity</li>
+                    </ul>
+                    <h6>Signal Strength:</h6>
+                    <p>Strong in most urban areas. Good penetration in rural areas. Known for high-speed data.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="viModal" tabindex="-1" aria-labelledby="viModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="viModalLabel">VI Network Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Network Coverage:</h6>
+                    <p>4G: Wide coverage across urban and many rural areas<br>5G: In early stages of deployment</p>
+                    <h6>User Count:</h6>
+                    <p>Approximately 240 million subscribers (as of 2023)</p>
+                    <h6>Popular Recharge Plans:</h6>
+                    <ul>
+                        <li>₹299: 1.5GB/day, unlimited calls, 28 days validity</li>
+                        <li>₹479: 1.5GB/day, unlimited calls, 56 days validity</li>
+                        <li>₹719: 1.5GB/day, unlimited calls, 84 days validity</li>
+                    </ul>
+                    <h6>Signal Strength:</h6>
+                    <p>Generally good in urban areas. Coverage and strength may vary in rural locations.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="othersModal" tabindex="-1" aria-labelledby="othersModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="othersModalLabel">Other Networks Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>There are several other telecom operators in India, including regional and smaller players. These may include:</p>
+                    <ul>
+                        <li>MTNL (in Delhi and Mumbai)</li>
+                        <li>Various state-run services</li>
+                        <li>Upcoming virtual network operators</li>
+                    </ul>
+                    <p>For specific information about these networks, including 4G/5G availability, user counts, recharge plans, and signal strength, please check with the individual service providers or visit their official websites.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container mt-5">
+        <h1 class="animated-title text-center mb-5">SIM Network Information and Login</h1>
+        <div class="row">
+            <!-- Grid Item 1: Networks Information -->
+            <div class="col-md-6 d-flex flex-column align-items-center text-center mb-4">
+                <div class="card shadow-lg border-0">
+                    <img src="images/tower3.png" class="card-img-top rounded-top" alt="Network Image">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">Network Information</h5>
+                        <p class="card-text">Explore our network coverage and plans. We support all types of SIMs to keep you connected.</p>
+                        <i class="fas fa-network-wired fa-2x text-primary mb-3"></i>
+                        <a href="#" class="btn btn-outline-primary">View Networks</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Grid Item 2: SIM Users Login Form -->
+            <div class="col-md-6 d-flex flex-column align-items-center text-center mb-4">
+                <div class="card shadow-lg border-0">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">SIM User Login</h5>
+                        <form>
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Username</label>
+                                <input type="text" class="form-control" id="username" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </form>
+                        <p class="mt-3"><a href="#">Forgot password?</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <footer class="footer text-center mt-5 py-4">
+        <p>&copy; 2024 | Developed by Yashaswini Pro</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/yashaswini-k8951/" target="_blank" class="me-3"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/pro_89_73/?__pwa=1" target="_blank" class="me-3"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/+918951556198" target="_blank" class="me-3">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

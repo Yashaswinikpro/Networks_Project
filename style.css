@@ -1,0 +1,254 @@
+/* Global Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('images/sim3.jpeg'); /* Add a background image */
+    background-size: cover;
+    background-position: center;
+    color: #f1f1f1;
+}
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --background-color: #f8f9fa;
+    --text-color: #333;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: var(--text-color);
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Information</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+        }
+        .nav-icon {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.3s ease;
+        }
+        .nav-icon:hover {
+            transform: scale(1.1);
+        }
+        .navbar {
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .modal-content {
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .modal-header {
+            background-color: #007bff;
+            color: white;
+            border-bottom: none;
+        }
+        .modal-body {
+            padding: 30px;
+        }
+        .modal-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        h6 {
+            color: #007bff;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        p, ul {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .btn-close {
+            color: white;
+        }
+        .animate__animated {
+            animation-duration: 0.5s;
+        }
+
+.btn-outline-success {
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-outline-success:hover {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.grid-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+}
+
+.grid-item h5 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.grid-item i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+
+.card {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.btn-outline-primary {
+    border: 2px solid #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.btn-primary {
+    background-color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    border-top: 1px solid #dee2e6;
+}
+.social-icons a {
+    color: #007bff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+.social-icons a:hover {
+    color: #0056b3;
+}
+
+.animated-title {
+    font-size: 3rem; /* Adjust font size */
+    color: #008080; /* Navy blue - professional look */
+    text-transform: uppercase; /* Make text uppercase */
+    font-weight: bold;
+    letter-spacing: 2px; /* Spacing between letters */
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    width: 100%; /* Adjust width */
+    margin: 0 auto; /* Center the title */
+    position: relative;
+    animation: slide 10s linear infinite; /* Animation settings */
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.animated-title::before, .animated-title::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 15%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(224, 48, 48, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%);
+    animation: shine 3s linear infinite;
+}
+
+.animated-title::before {
+    left: 0;
+}
+
+.animated-title::after {
+    right: 0;
+    animation-delay: 1.5s;
+}
+
+@keyframes shine {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
